@@ -8,10 +8,10 @@ This project is a part of the 2019 NYC Open Data Competition.
 - I orginally worked on coding the different categorical variables into our model and thus introducing interesting factors and would like to work on that
 
 ## Team Atlas Members
--William Zeng
--Paloma (Haige) Cui
--Paige (Zipei) Wang
+- William Zeng
+- Paloma (Haige) Cui
+- Paige (Zipei) Wang
 
 ## Special Thanks to
--Roy Hyujin Han of Cross Compute
--Ying Zhou of QC Tech Incubator
+- Roy Hyujin Han of Cross Compute
+- Ying Zhou of QC Tech Incubator
