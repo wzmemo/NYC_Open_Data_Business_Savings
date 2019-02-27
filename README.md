@@ -1,4 +1,4 @@
-# Predict Business Savings
+# Does Being Green = Saved Ultility Costs for Businesses?
 This a tool using data from the [2018 NYC Business Data](https://data.cityofnewyork.us/City-Government/Value-of-Energy-Cost-Savings-Program-Savings-for-B/ukdt-xm28) and the [2015 Tree Census](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/pi5s-9p35) to build a simple predictive model to estimate how much a business might <b> save </b> in ulitity costs  if it invested in <b> green initatives </b> like tree planting or enrolling in a business association.
 
 This project is a part of the 2019 NYC Open Data Competition. 
