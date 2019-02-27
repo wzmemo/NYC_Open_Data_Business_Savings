@@ -3,6 +3,9 @@ This a tool using data from the [2018 NYC Business Savings Data](https://data.ci
 
 This project is a part of the 2019 NYC Open Data Competition. 
 
+## Hypothesis
+We think that the more trees that a business has around or near it's property would be coorelated with savings for ultilities given by the city of NY.
+
 ## Step 1 - Load the Data
 First, given the size of the NYC Business data, we were directly able to load it using the following code for our analysis:
 
@@ -24,9 +27,22 @@ Lastly, we created two more categories (1) monthly savings of addresses in a 0.5
 There are two ways to take this analysis.
 - I experimented with doing regression on continuous and coded categorical variables but that turned out to be a little unwiedly and out of scope of this project. 
 - I instead opted to do regression on our three coninuous variables
-Our training data consisted of 
+Our training data consisted of: 
 
-<img src="https://github.com/wzmemo/Predicting_Business_Savings/blob/master/images/training_data.png" width="800">
+<img src="https://github.com/wzmemo/Predicting_Business_Savings/blob/master/images/training_data.png" width="600">
+
+<img src="https://github.com/wzmemo/Predicting_Business_Savings/blob/master/images/boxplot.png" width="700">
+
+From there, we tested and fit our data to a few algorithms to observe accuracy and ultimately we ended up going with Bayesian Ridge.
+
+<img src="https://github.com/wzmemo/Predicting_Business_Savings/blob/master/images/model_results.png" width="500">
+
+## Step 4 - Applying the model to some training data
+We applied the model to some training data
+link
+
+## Conclusion
+
 
 ## Further Steps
 - If we had more time, we would like to have optimized the model further because we suspect that there is a model that drastically reduces variance and bias.
